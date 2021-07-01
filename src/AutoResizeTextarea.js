@@ -38,7 +38,6 @@ template.innerHTML = `
 `;
 
 class AutoResizeTextarea extends HTMLElement {
-
 	constructor() {
 		super();
 
@@ -73,16 +72,14 @@ class AutoResizeTextarea extends HTMLElement {
 		}
 	}
 
-    focus(){
-        this.textareaElement.focus();
-    }
+	focus() {
+		this.textareaElement.focus();
+	}
 
-
-    
 	static get observedAttributes() {
 		return ['placeholder', 'value'];
 	}
-    
+
 	attributeChangedCallback(name, oldVal, newVal) {
 		if (oldVal === newVal) {
 			return;
