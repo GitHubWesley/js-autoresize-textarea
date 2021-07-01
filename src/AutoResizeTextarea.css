@@ -1,0 +1,28 @@
+:host{
+    display: block;
+    outline: none;
+    overflow: auto;
+}
+.wes-auto-resize-textarea {
+    box-sizing: content-box;
+    border:none;
+}
+.wes-auto-resize-textarea:focus {
+    outline: none;
+}
+.wes-auto-resize-placeholder {
+    color: rgb(117, 117, 117);
+
+    outline: none !important;
+    box-sizing: content-box !important;
+    position: absolute !important;
+    background-color: transparent !important;
+    opacity: 1 !important;
+    font-size: inherit !important;
+    border: none !important;
+
+    direction: inherit !important;
+    pointer-events: none !important;
+    text-orientation: inherit !important;
+    writing-mode: inherit !important;
+}
